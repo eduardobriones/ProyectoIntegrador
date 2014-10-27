@@ -1,0 +1,30 @@
+<script>
+		function redirecTo(myPage){
+			window.location = myPage+".php";
+		}
+		function updateSchedule(){
+			alert('Your schedule has been updated!');
+		}
+</script>
+
+<div align="left">
+	<table border="0">
+		<tr>
+			<td>
+				<img src="../img/noProfilePicture.gif" width="100" height="130">
+			</td>
+		
+			<td><input type="button" value="Main" onclick="redirecTo('main')"></td>
+		
+			<td><input type="button" value="Customers" onclick="redirecTo('customers')"></td>
+		
+			<td><input type="button" value="Courses" onclick="redirecTo('courses')"></td>
+		
+			<td><input  type="button" value="Schedule" onclick="redirecTo('schedule')"></td>
+		
+			<td><input type="button" value="Meetings" onclick="redirecTo('meetings')"></td>
+		</tr>
+
+	</table>
+
+</div>
