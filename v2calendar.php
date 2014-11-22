@@ -22,7 +22,7 @@
  	
  <form method="post" action="proc_cal.php">	
 	<p class="text-info">Name: 
-	<input class="input-sm" type="text" id="evento" style="width: 500px; height: 32px;"/></p>
+	<input class="input-sm" type="text" id="evento" name="nombre" style="width: 500px; height: 32px;"/></p>
 	<br>
 	<p class="text-info">Start day:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 	<input class="input-sm" type="text" id="inicio" placeholder="2014-10-5" style="height: 32px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Start hour: 
@@ -33,7 +33,7 @@
 	<input class="input-sm" type="text" id="horaf" placeholder="10:25" style="height: 32px"/></p>
 	<br>
 	<p class="text-info">E-mail: 
-	<input class="input-sm" type="email" id="correo" placeholder="user@example.com" style="width: 280px; height: 32px;"></p>
+	<input class="input-sm" type="email" id="correo" name="email" placeholder="user@example.com" style="width: 280px; height: 32px;"></p>
 <p class="text-info">&nbsp;</p>
 	
 	<button class="btn" id="insert-button" style="visibility: hidden">Insert to calendar</button>
