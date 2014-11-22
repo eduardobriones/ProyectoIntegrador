@@ -20,7 +20,7 @@
 		
 
 		 mysql_query($sql,$db);
-   			 header("location:calen.php");
+   			 header("location:calendar.php");
    			mysql_close($db);
 		}
 		else {
